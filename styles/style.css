@@ -1,0 +1,79 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* shared style  */
+.btn-primary {
+    background-color: #E76F51;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem 1.25rem;
+}
+.section-description {
+    color: #E0E0E0;
+    font-size: 1rem;
+    line-height:1.5rem;
+    letter-spacing: 0.5px;
+}
+/* header start */
+header {
+    background-color: #264653bb;
+}
+/* nav start */
+nav {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 3.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.25rem;
+}
+nav ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.ham-burger{
+    display: none;
+}
+/* nav end */
+
+/* banner start */
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 0;
+}
+.banner .banner-txt-box {
+    max-width: 500px;
+    margin-top: 1rem;
+}
+.banner .banner-txt-box h1 {
+    color: #fff;
+    font-size: 3.333vw;
+    margin: 1.2rem 0;
+}
+.banner .banner-txt-box > button {
+    margin-top: 1.2rem;
+    padding: 0.6rem 2.5rem;
+}
+/* banner end */
+
+/* header end */
