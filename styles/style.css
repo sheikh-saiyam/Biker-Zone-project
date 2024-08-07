@@ -13,6 +13,11 @@
     border-radius: 5px;
     padding: 0.6rem 1.25rem;
 }
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
 .section-description {
     color: #E0E0E0;
     font-size: 1rem;
@@ -77,3 +82,36 @@ nav ul li {
 /* banner end */
 
 /* header end */
+
+/* featured start */
+.featured {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+.featured h5 {
+    text-align: center;
+    color: #E76F51;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.bike-box {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+.bike {
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+.grey {
+    filter: grayscale(100%);
+}
+.bike img {
+    width: 85%;
+    height: 250px;
+}
+/* featured end */
