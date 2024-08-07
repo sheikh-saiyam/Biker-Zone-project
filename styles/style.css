@@ -195,3 +195,38 @@ nav ul li {
     font-weight:600;
 }
 /* client end */
+
+/* FAQ start */
+.FAQ {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom:5rem ;
+}
+.FAG-box {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+/* .FAQ-img-box img {
+    width: 100%;
+} */
+.FAQ-txt-parent-box {
+    max-width: 560px;
+   
+}
+.FAQ-txt-parent-box .child-box {
+    border: 2px solid #D5E5FB;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 1.2rem;
+}
+.FAQ-txt-parent-box .child-box p {
+    font-size: 1rem;
+    line-height: 24px ;
+    letter-spacing: 0.5px;
+    color: #6C6C6C;
+    margin-top: 1rem;
+}
+/* FAQ end */

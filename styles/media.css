@@ -60,4 +60,16 @@
     gap: 3rem;
   }
   /* featured start & latest & client new section end  */
+
+  /* FAQ start */
+  .FAQ {
+    width: 90%;
+  }
+  .FAG-box {
+    flex-direction: column;
+  }
+   .FAQ-img-box img {
+    width: 100%;
+  } 
+  
 }
