@@ -64,7 +64,7 @@ nav ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 0;
+    padding: 6.50rem 0;
 }
 .banner .banner-txt-box {
     max-width: 500px;
@@ -87,7 +87,7 @@ nav ul li {
 .featured {
     max-width: 80%;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 .featured h5 {
     text-align: center;
@@ -120,7 +120,7 @@ nav ul li {
 .latest {
     max-width: 80%;
     margin: 0 auto;
-    padding-bottom:4rem ;
+    padding-bottom:5rem ;
 }
 .news-box {
     display: grid;
@@ -161,3 +161,37 @@ nav ul li {
     padding: 0.6rem 1.25rem;
 }
 /* latest news end */
+
+/* client start */
+.client {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom:5rem ;
+}
+.client-box {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+.client-card {
+    padding:2.5rem  ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+.client-card img {
+    width: 150px;
+}
+.client-card p {
+    font-size: 1rem;
+    line-height: 24px ;
+    letter-spacing: 0.5px;
+    color: #6C6C6C;
+    margin-top: 1rem;
+}
+.client-card h4 {
+    margin-top: 1rem;
+    font-weight:600;
+}
+/* client end */
