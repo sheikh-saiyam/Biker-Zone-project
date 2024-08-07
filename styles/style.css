@@ -214,10 +214,10 @@ nav ul li {
 } */
 .FAQ-txt-parent-box {
     max-width: 560px;
-   
 }
 .FAQ-txt-parent-box .child-box {
-    border: 2px solid #D5E5FB;
+    /* border: 2px solid #D5E5FB; */
+    box-shadow:  #D5E5FB 0px 1px 4px;
     border-radius: 5px;
     margin-top: 1rem;
     padding: 1.2rem;
@@ -230,3 +230,47 @@ nav ul li {
     margin-top: 1rem;
 }
 /* FAQ end */
+
+/* footer start */
+footer {
+    background-color: #0B0D17;
+    color: #fff;
+}
+.footer-main-box {
+    max-width:80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main-txt-box {
+    color: #fff;
+    opacity: 90%;
+    font-size: 1rem;
+    line-height: 24px ;
+    letter-spacing: 0.5px;
+}
+.footer-main-txt-box .txt-box1{
+    display: flex;
+    gap: 2rem;
+}
+.footer-main-txt-box .txt-box2{
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.footer-main-txt-box .txt-box3 {
+    margin-top: 2rem;
+}
+.footer-2nd-txt-box p {
+    color: #fff;
+    opacity: 90%;
+    font-size: 1rem;
+    line-height: 24px ;
+    letter-spacing: 0.5px;
+}
+.footer-2nd-txt-box img {
+    width: 140px;
+}
+/* footer end */

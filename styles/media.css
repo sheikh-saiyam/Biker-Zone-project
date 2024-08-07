@@ -71,5 +71,12 @@
    .FAQ-img-box img {
     width: 100%;
   } 
+
+  /* footer start */
+  .footer-main-box {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  /* footer end */
   
 }
