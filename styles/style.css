@@ -181,7 +181,7 @@ nav ul li {
     border-radius: 5px;
 }
 .client-card img {
-    width: 150px;
+    max-width: 150px;
 }
 .client-card p {
     font-size: 1rem;

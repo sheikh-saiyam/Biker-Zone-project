@@ -1,4 +1,53 @@
-/* small device */
+@media screen and (min-width:769px) and (max-width:992px) {/* header start */
+   /* shared style */
+   .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  /* nav start */
+  nav {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  /* nav end */
+
+  /* banner start */
+  .banner {
+    padding:2rem 0;
+    gap: 2rem;
+  }
+  .banner > div {
+    width: 50%;
+  }
+  .banner-img-box img {
+    width: 100%;
+  }
+  /* banner end */
+
+  /* header end */
+
+  /* latest start */
+  .news-box {
+    grid-template-columns: repeat(2 ,1fr);
+  }
+  /* latest end */
+
+  /* client start */
+  .client-box {
+    grid-template-columns: repeat(2 ,1fr);
+  }
+  /* client end */
+
+  /* FAQ start */
+  .FAQ-txt-parent-box {
+    max-width: 300px;
+  }
+   .FAQ-img-box img {
+    width: 100%;
+} 
+  /* FAQ end */
+}
 @media screen and (max-width: 768px) {
   /* shared style */
   .section-title {
