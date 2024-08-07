@@ -1,63 +1,63 @@
-/* shared style */
-.section-title {
+/* small device */
+@media screen and (max-width: 768px) {
+  /* shared style */
+  .section-title {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-}
-/* small device */
-@media screen and (max-width:768px){
-    /* header start */
+  }
+  /* header start */
 
-    /* nav start */
-    nav {
-        max-width: 90%;
-    }
-    nav ul li{
-        display: none;
-    }
-    nav ul button{
-        display: none;
-    }
-    .ham-burger{
-        display: block;
-    }
-    .ham-burger i{
-        color: #fff;
-        font-size: 26px;
-    }
-    /* nav end */
+  /* nav start */
+  nav {
+    max-width: 90%;
+  }
+  nav ul li {
+    display: none;
+  }
+  nav ul button {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+  }
+  .ham-burger i {
+    color: #fff;
+    font-size: 26px;
+  }
+  /* nav end */
 
-    /* banner start */
-    .banner {
-        width: 90%;
-        flex-direction: column;
-        align-items: normal;
-        gap: 2rem;
-        padding: 2rem 0;
-    }
-    .banner .banner-txt-box {
-        max-width:90%;
-    }
-    .banner .banner-txt-box h1 {
-        font-size: 2.25rem;
-    }
-    .banner .banner-txt-box > button {
-        width: 80%;
-    }
-    .banner .banner-img-box img {
-        width: 100%;
-    }
-    /* banner end */
+  /* banner start */
+  .banner {
+    width: 90%;
+    flex-direction: column;
+    align-items: normal;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  .banner .banner-txt-box {
+    max-width: 90%;
+  }
+  .banner .banner-txt-box h1 {
+    font-size: 2.25rem;
+  }
+  .banner .banner-txt-box > button {
+    width: 80%;
+  }
+  .banner .banner-img-box img {
+    width: 100%;
+  }
+  /* banner end */
 
-    /* header end */
-    
+  /* header end */
 
-    /* featured start */ 
-    .featured {
-        max-width: 90%;
-    }
-    .bike-box {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
+  /* featured start & latest new section start */
+  .featured , .latest{
+    max-width: 90%;
+  }
+  .bike-box , .news-box{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  /* featured start & latest new section end  */
 }
